@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>post01 生成映像とリップシンクの確認用</title>
+<style>
+body{margin:0;background:#f5f4ee;color:#163e38;font-family:system-ui,sans-serif}main{max-width:1040px;margin:40px auto;padding:0 24px}h1{font-size:26px}p{line-height:1.8}.grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}article{background:white;padding:24px;border-radius:16px}h2{font-size:20px}video{display:block;width:100%;max-width:360px;margin:20px auto;border-radius:8px}button{border:1px solid #163e38;padding:12px 16px;margin:4px;background:white;color:#163e38;border-radius:7px;cursor:pointer}button.play{background:#163e38;color:white}.note{font-size:14px;color:#51645e}@media(max-width:680px){.grid{grid-template-columns:1fr}}
+</style>
+<main><h1>post01 生成映像の確認用</h1>
+<p>本人の収録音声を使用。BGMなし。動画は停止・消音の状態で開きます。</p>
+<div class="grid">
+<article><h2>通常版 約35秒</h2><p class="note">コンテの9カットを生成映像で構成。</p>
+<video id="main" controls muted playsinline preload="none" poster="post01_generated_Ver0.3_poster.jpg" src="post01_generated_Ver0.3.mp4"></video>
+<button class="play" data-play="main">消音で再生</button><button data-sound="main">音声を有効にする</button>
+</article>
+<article><h2>リップシンクサンプル 5秒</h2><p class="note">最後の院長カット。本人の音声に合わせて映像の時間を調整。</p>
+<video id="lip" controls muted playsinline preload="none" poster="post01_lipsync_sample_Ver0.3_poster.jpg" src="post01_lipsync_sample_Ver0.3.mp4"></video>
+<button class="play" data-play="lip">消音で再生</button><button data-sound="lip">音声を有効にする</button>
+</article></div></main>
+<script>
+const videos=[...document.querySelectorAll('video')];
+for(const v of videos){v.muted=true;v.addEventListener('play',()=>{for(const other of videos)if(other!==v)other.pause()})}
+for(const b of document.querySelectorAll('[data-play]'))b.onclick=()=>{const v=document.getElementById(b.dataset.play);v.muted=true;document.querySelector(`[data-sound="${v.id}"]`).textContent='音声を有効にする';v.play()};
+for(const b of document.querySelectorAll('[data-sound]'))b.onclick=()=>{const v=document.getElementById(b.dataset.sound);v.muted=!v.muted;b.textContent=v.muted?'音声を有効にする':'消音にする'};
+document.addEventListener('visibilitychange',()=>{if(document.hidden)for(const v of videos)v.pause()});
+</script>
+</html>

@@ -44,22 +44,22 @@
   {
     "post": "post08",
     "platform": "instagram",
-    "file": "post08_instagram_26cb6d59cd29.mp4",
-    "sha256": "26cb6d59cd29a031f2cf4dfe9f0502a18637ac9688ea1c8ad5bb53583302dad8",
-    "bytes": 13359445
+    "file": "post08_instagram_6f8cca0529bb.mp4",
+    "sha256": "6f8cca0529bbb903cd1d98de3cbf4bdf1cd1ffffcad39a09d70b08067da5d9f3",
+    "bytes": 13300289
   },
   {
     "post": "post08",
     "platform": "shorts",
-    "file": "post08_shorts_9eaa7f7b8f3c.mp4",
-    "sha256": "9eaa7f7b8f3c68334ec33f10661cde45587b6d2b064b3209116a530084bb457b",
-    "bytes": 13349250
+    "file": "post08_shorts_c1ffb563d976.mp4",
+    "sha256": "c1ffb563d97633bb5dc4064a161ce3d832277182ea1a578987eb5bcd44d232f7",
+    "bytes": 13293300
   },
   {
     "post": "post08",
     "platform": "tiktok",
-    "file": "post08_tiktok_c7bf208e6c44.mp4",
-    "sha256": "c7bf208e6c44b4b957a42cc1e0710ea8c5a723ec9fe2e9593888544ef77080f4",
-    "bytes": 13346887
+    "file": "post08_tiktok_e415d0f4b0e8.mp4",
+    "sha256": "e415d0f4b0e83d420054ff42f0910f6f3617f955e56ec9ed876ac1348dfcc37f",
+    "bytes": 13287475
   }
 ]

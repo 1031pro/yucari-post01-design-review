@@ -1,0 +1,83 @@
+[
+  {
+    "post": "post01",
+    "platform": "instagram",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post01_instagram_review_20261024.mp4",
+    "frames": 710,
+    "question_shift": 0,
+    "sha256": "55825f6d4c617fa88c6c7c70191767e58b6111aa4d46682fb3c818f9f2a83d4a",
+    "published_file": "post01_instagram_55825f6d4c61.mp4"
+  },
+  {
+    "post": "post01",
+    "platform": "shorts",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post01_shorts_review_20261024.mp4",
+    "frames": 710,
+    "question_shift": 0,
+    "sha256": "6f03522756d46149c78b092439db0e43bc0813d89fd816e194c799e7ac8cc482",
+    "published_file": "post01_shorts_6f03522756d4.mp4"
+  },
+  {
+    "post": "post01",
+    "platform": "tiktok",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post01_tiktok_review_20261024.mp4",
+    "frames": 710,
+    "question_shift": 0,
+    "sha256": "8dbab4bcccbf59389f5b70ead9e44182138ee7ad78ed6250e8788237b6d1b87b",
+    "published_file": "post01_tiktok_8dbab4bcccbf.mp4"
+  },
+  {
+    "post": "post05",
+    "platform": "instagram",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post05_instagram_review_20261024.mp4",
+    "frames": 673,
+    "question_shift": 1.3666666666666667,
+    "sha256": "a1ad39c873e0acde3326e2b793b69a9ee43549077ea13fd1a551dabd489c4470",
+    "published_file": "post05_instagram_a1ad39c873e0.mp4"
+  },
+  {
+    "post": "post05",
+    "platform": "shorts",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post05_shorts_review_20261024.mp4",
+    "frames": 673,
+    "question_shift": 1.3666666666666667,
+    "sha256": "a903063549a1b6f28b208990d9f0e4e24c579c393b5816edb2ec8672273f6e0f",
+    "published_file": "post05_shorts_a903063549a1.mp4"
+  },
+  {
+    "post": "post05",
+    "platform": "tiktok",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post05_tiktok_review_20261024.mp4",
+    "frames": 673,
+    "question_shift": 1.3666666666666667,
+    "sha256": "c46f8d2a1470f16096b1734acab22c18a716e69e8e86caf2a4c6f926273a90ef",
+    "published_file": "post05_tiktok_c46f8d2a1470.mp4"
+  },
+  {
+    "post": "post08",
+    "platform": "instagram",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post08_instagram_review_20261024.mp4",
+    "frames": 689,
+    "question_shift": 1.3666666666666667,
+    "sha256": "b6c0481225ba037031002240b7b91eca7284cdc7aeb232758320468924e27bff",
+    "published_file": "post08_instagram_b6c0481225ba.mp4"
+  },
+  {
+    "post": "post08",
+    "platform": "shorts",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post08_shorts_review_20261024.mp4",
+    "frames": 689,
+    "question_shift": 1.3666666666666667,
+    "sha256": "94225553110596133c2ea655412ea72d75ba99949f034806b87dd40ebaf0ae47",
+    "published_file": "post08_shorts_942255531105.mp4"
+  },
+  {
+    "post": "post08",
+    "platform": "tiktok",
+    "path": "D:\\Dev\\Clients\\まりりん\\ゆーかり整骨医院\\revision_20261024\\post08_tiktok_review_20261024.mp4",
+    "frames": 689,
+    "question_shift": 1.3666666666666667,
+    "sha256": "edc7edc86343f2e2788b60a5529e8e87c1ee3a98109f8d99a5d330ead029797a",
+    "published_file": "post08_tiktok_edc7edc86343.mp4"
+  }
+]
